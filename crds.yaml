@@ -4,6 +4,7 @@ metadata:
   name: daves.example.com
 spec:
   group: example.com
+  version: v1
   versions:
     - name: v1
       served: true
@@ -22,6 +23,7 @@ metadata:
   name: cdaves.example.com
 spec:
   group: example.com
+  version: v1
   versions:
     - name: v1
       served: true
