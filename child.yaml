@@ -1,0 +1,11 @@
+apiVersion: "example.com/v1"
+kind: Dave
+metadata:
+  name: child
+  ownerReferences:
+  - apiVersion: dave.example.com/v1
+    blockOwnerDeletion: true
+    kind: Dave
+    name: parent
+    uid: DAVE_UID
+spec: {}

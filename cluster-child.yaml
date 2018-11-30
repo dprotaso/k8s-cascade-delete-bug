@@ -1,0 +1,12 @@
+apiVersion: "example.com/v1"
+kind: ClusterDave
+metadata:
+  name: child
+  ownerReferences:
+  - apiVersion: dave.example.com/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Dave
+    name: parent
+    uid: DAVE_UID
+spec: {}
